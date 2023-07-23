@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FetalDevelopmentActivity">
+
+    <Button
+        android:id="@+id/firstButton"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="266dp"
+        android:layout_marginBottom="610dp"
+        android:onClick="first"
+        android:text="First"
+        tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/secondButton"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="610dp"
+        android:onClick="second"
+        android:text="Second"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/thirdButton"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="610dp"
+        android:onClick="third"
+        android:text="Third"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ScrollView
+        android:layout_width="377dp"
+        android:layout_height="578dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/firstTrimesterHeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Second Trimester"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/week14HeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n 14 weeks after conception"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <ImageView
+                android:id="@+id/f216"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/f216" />
+
+            <TextView
+                android:id="@+id/fertilizationTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By the end of the 16th week of pregnancy — 14 weeks after conception — your baby's limb movements are becoming more coordinated."
+                android:textSize="18dp"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/week19HeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n 19 weeks after conception"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <ImageView
+                android:id="@+id/f221"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/f221" />
+
+            <TextView
+                android:id="@+id/week19TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By the end of the 21st week of pregnancy — 19 weeks after conception — your baby might suck his or her thumb."
+                android:textSize="18dp"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/week23HeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n 23 weeks after conception"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <ImageView
+                android:id="@+id/f225"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/f225" />
+
+            <TextView
+                android:id="@+id/week23TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By the end of the 25th week of pregnancy — 23 weeks after conception — your baby might be able to respond to your voice with movement."
+                android:textSize="18dp"
+                android:textColor="#393535"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

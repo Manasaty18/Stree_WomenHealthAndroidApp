@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FetalDevelopmentActivity">
+
+    <Button
+        android:id="@+id/firstButton"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="266dp"
+        android:layout_marginBottom="610dp"
+        android:onClick="first"
+        android:text="First"
+        tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/secondButton"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="610dp"
+        android:onClick="second"
+        android:text="Second"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/thirdButton"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="610dp"
+        android:onClick="third"
+        android:text="Third"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ScrollView
+        android:layout_width="377dp"
+        android:layout_height="578dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/firstTrimesterHeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Third Trimester"
+                android:textAlignment="center"
+                android:textColor="#393535"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/week27HeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n 27 weeks after conception"
+                android:textColor="#393535"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/f329"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/f329" />
+
+            <TextView
+                android:id="@+id/week27TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By the end of the 29th week of pregnancy — 27 weeks after conception — your baby can kick and stretch."
+                android:textColor="#393535"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/week31HeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n 31 weeks after conception"
+                android:textColor="#393535"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/f333"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/f333" />
+
+            <TextView
+                android:id="@+id/week31TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By the end of the 33rd week of pregnancy — 31 weeks after conception — your baby's eyes can detect light."
+                android:textColor="#393535"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/week38HeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n 38 weeks after conception"
+                android:textColor="#393535"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/f340"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/f340" />
+
+            <TextView
+                android:id="@+id/week38TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By the end of the 40th week of pregnancy — 38 weeks after conception — your baby is considered full term."
+                android:textColor="#393535"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

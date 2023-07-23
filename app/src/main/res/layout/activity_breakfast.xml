@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutritionActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="517dp"
+        app:srcCompat="@drawable/nutrition" />
+
+    <Button
+        android:id="@+id/breakfastButton"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="467dp"
+        android:onClick="breakfast"
+        android:text="Breakfast"
+        tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/lunchButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="467dp"
+        android:onClick="lunch"
+        android:text="Lunch"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/dinnerButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="467dp"
+        android:onClick="dinner"
+        android:text="Dinner"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ScrollView
+        android:layout_width="359dp"
+        android:layout_height="453dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="13dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/preBreakfastHeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pre-Breakfast Snack Ideas"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#393535" />
+
+            <TextView
+                android:id="@+id/preBreakfastTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Dry fruits (10 to 12 pieces)\n2. One glass of cow milk (plain)\n3. Banana milkshake\n4. Almond milk\n5. Carrot juice\n6. Tomato juice\n7. Apple juice"
+                android:textSize="20dp"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/breakfastHeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Breakfast Ideas"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/breakfastTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Bowl of fruit salad (including apricots, apples, dates, banana, sweet fig, and oranges)\n2. Rava upma with vegetables\n3. Vegetable poha with chillas\n4. Oats with 2 boiled eggs\n5. Vegetable omelette\n6. Whole wheat toast, butter, and omelette\n7. Stuffed parathas (with fillings of potatoes, dal, spinach, carrots, paneer, or beans) with curd\n8.Cheese and vegetable sandwich\n9. Cheese toast
+\n10. Rice sevai with vegetables
+\n11. Vegetable khandvi"
+                android:textSize="20dp"
+                android:textColor="#393535"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

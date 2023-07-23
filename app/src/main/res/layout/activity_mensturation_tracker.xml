@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCA3D6"
+    tools:context=".MensturationTrackerActivity">
+
+    <TextView
+        android:id="@+id/enterDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="585dp"
+        android:text="Enter your last period date :"
+        android:textAlignment="center"
+        android:textColor="#100505"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ovulationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="321dp"
+        android:text="Ovulation :"
+        android:textAlignment="center"
+        android:textColor="#100505"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mensturationTextView"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="150dp"
+        android:text="Mensturation :"
+        android:textAlignment="center"
+        android:textColor="#100505"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mensturationDateTextView"
+        android:layout_width="306dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="57dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="249dp"
+        android:layout_marginBottom="494dp"
+        android:background="#00200202"
+        android:ems="10"
+        android:hint="date"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/monthEditText"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="493dp"
+        android:ems="10"
+        android:hint="month"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/yearEditText"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="493dp"
+        android:ems="10"
+        android:hint="year"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="403dp"
+        android:backgroundTint="@color/black"
+        android:text="CALCULATE"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ovulationDateTextView"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="234dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

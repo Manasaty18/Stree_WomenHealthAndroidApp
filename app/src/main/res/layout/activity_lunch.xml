@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutritionActivity" >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="517dp"
+        app:srcCompat="@drawable/nutrition" />
+
+    <Button
+        android:id="@+id/breakfastButton"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="467dp"
+        android:onClick="breakfast"
+        android:text="Breakfast"
+        tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/lunchButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="467dp"
+        android:onClick="lunch"
+        android:text="Lunch"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/dinnerButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="467dp"
+        android:onClick="dinner"
+        android:text="Dinner"
+        tools:ignore="UsingOnClickInXml" />
+
+
+    <ScrollView
+        android:layout_width="359dp"
+        android:layout_height="453dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="13dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/preLunchHeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pre-Lunch Snack Ideas"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/preLunchTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Chicken soup\n2. Spinach soup\n3. Tomato soup\n4. Carrot and beetroot soup\n5. Creamy spinach soup\n6. Pumpkin (kaddu) soup\n7. Banana milkshake"
+                android:textSize="20dp"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/lunchHeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lunch Ideas"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/lunchTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Plain paratha with curd and a bowl of dal
+\n2. Chapati with dal, curd, and a bowl of vegetable
+\n3. Peas and carrot stuffed paratha made with butter and a bowl of curd
+\n4. Vegetable khichdi
+\n5. Curd rice
+\n6. Rice and chicken curry
+\n7. Green peas pulao or jeera pulao with raita
+\n8. Rice, vegetables, and dal with a green salad
+\n9. Rice, dal, vegetable raita with one fruit
+\10. Pea lemon rice with a green salad
+\n11. Chicken salad with vegetable soup
+\n12. Grilled chicken with curd
+\n13. Rice with kofta curry
+\n14. Paneer paratha made with butter and green salad
+\n15. Stuffed paratha with sprouts salad"
+                android:textSize="20dp"
+                android:textColor="#393535"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

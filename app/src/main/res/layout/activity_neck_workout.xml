@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NeckWorkoutActivity">
+
+    <ScrollView
+        android:layout_width="383dp"
+        android:layout_height="699dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/wastetv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/N1tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Up And Down Nods"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <SurfaceView
+                android:id="@+id/N1sv"
+                android:layout_width="match_parent"
+                android:layout_height="170dp" />
+
+            <TextView
+                android:id="@+id/N2tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Side-to-Side Turns"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <SurfaceView
+                android:id="@+id/N2sv"
+                android:layout_width="match_parent"
+                android:layout_height="170dp" />
+
+            <TextView
+                android:id="@+id/N3tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Side-to-Side Tilts"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <SurfaceView
+                android:id="@+id/N3sv"
+                android:layout_width="match_parent"
+                android:layout_height="170dp" />
+
+            <TextView
+                android:id="@+id/N4tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.Side Neck Stretch Left and Right"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <SurfaceView
+                android:id="@+id/N4sv"
+                android:layout_width="match_parent"
+                android:layout_height="170dp" />
+
+            <TextView
+                android:id="@+id/N6N7tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.Clockwise And Counter Clockwise Shoulder Rolls "
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <SurfaceView
+                android:id="@+id/N6N7sv"
+                android:layout_width="match_parent"
+                android:layout_height="170dp" />
+
+            <TextView
+                android:id="@+id/N8tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.Shoulder Outward Rotation"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <SurfaceView
+                android:id="@+id/N8sv"
+                android:layout_width="match_parent"
+                android:layout_height="170dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

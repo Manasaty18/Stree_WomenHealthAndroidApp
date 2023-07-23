@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FetalDevelopmentActivity">
+
+    <Button
+        android:id="@+id/firstButton"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="266dp"
+        android:layout_marginBottom="610dp"
+        android:onClick="first"
+        android:text="First"
+        tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/secondButton"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="610dp"
+        android:onClick="second"
+        android:text="Second"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/thirdButton"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="610dp"
+        android:onClick="third"
+        android:text="Third"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ScrollView
+        android:layout_width="377dp"
+        android:layout_height="578dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/firstTrimesterHeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First Trimester"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/fertilizationHeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n Fertilization And Implantation"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <ImageView
+                android:id="@+id/f13"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/f13" />
+
+            <TextView
+                android:id="@+id/fertilizationTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="During fertilization, the sperm and egg unite to form a zygote which on further growth becomes a blastocyst that burrows into the uterine lining. That process is called implantation"
+                android:textSize="18dp"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/week3HeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n 3 weeks after conception"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <ImageView
+                android:id="@+id/f15"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/f15" />
+
+            <TextView
+                android:id="@+id/week3TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By the end of the fifth week of pregnancy — three weeks after conception — your hormone levels are rising"
+                android:textSize="18dp"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/week4HeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n 4 weeks after conception"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <ImageView
+                android:id="@+id/f16"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/f16" />
+
+            <TextView
+                android:id="@+id/week4TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By the end of the sixth week of pregnancy — four weeks after conception — small buds appear that will become arms"
+                android:textSize="18dp"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/week5HeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n 5 weeks after conception"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <ImageView
+                android:id="@+id/f17"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/f17" />
+
+            <TextView
+                android:id="@+id/week5TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By the end of the seventh week of pregnancy — five weeks after conception — your baby's brain and face are the focus of development."
+                android:textSize="18dp"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/week6HeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n 6 weeks after conception"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <ImageView
+                android:id="@+id/f18"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/f18" />
+
+            <TextView
+                android:id="@+id/week6TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By the end of the eighth week of pregnancy — six weeks after conception — your baby might be about 1/2 inch (11 to 14 millimeters) long."
+                android:textSize="18dp"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/week8HeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n 8 weeks after conception"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <ImageView
+                android:id="@+id/f110"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/f110" />
+
+            <TextView
+                android:id="@+id/week8TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By the end of the 10th week of pregnancy — eight weeks after conception — your baby's toes and fingers lose their webbing and become longer."
+                android:textSize="18dp"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/week10HeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n 10 weeks after conception"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <ImageView
+                android:id="@+id/f112"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/f112" />
+
+            <TextView
+                android:id="@+id/week10TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By the end of the 12th week of pregnancy — 10 weeks after conception — your baby might weigh about 1/2 ounce (14 grams)"
+                android:textSize="18dp"
+                android:textColor="#393535"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutritionActivity" >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="517dp"
+        app:srcCompat="@drawable/nutrition" />
+
+    <Button
+        android:id="@+id/breakfastButton"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="467dp"
+        android:onClick="breakfast"
+        android:text="Breakfast"
+        tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/lunchButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="467dp"
+        android:onClick="lunch"
+        android:text="Lunch"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/dinnerButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="467dp"
+        android:onClick="dinner"
+        android:text="Dinner"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ScrollView
+        android:layout_width="359dp"
+        android:layout_height="453dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="13dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/preDinnerHeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pre-Dinner Snack Ideas"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/preDinnerTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Chicken cutlet
+\n2. Bread cutlet
+\n3. Chicken sandwich
+\n4. Corn and cheese sandwich
+\n5. Roasted peanuts
+\n6.Dry fruits with dried dates
+\n7. Milk porridge with sevai, oats, or daliya
+\n8. Vegetable daliya
+\n9. Tomato and spinach idli
+\n10. Vegetable idli
+\n11. Mixed-veg uttapam
+\n12. Vegetable sevai
+\n13. Carrot halwa
+\n14. Lauki halwa
+\n15. Fresh fruit smoothie (banana or strawberry)
+\n16. A cup of green tea"
+                android:textSize="20dp"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/dinnerHeadingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dinner Ideas"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#393535"/>
+
+            <TextView
+                android:id="@+id/dinnerTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Chicken rice or vegetable pulao with a bowl of curd
+\n2. Mixed dal khichdi, curd, vegetable curry
+\n3. Rice, spinach veggie, dal, green salad
+\n4. Plain paratha with curd (or buttermilk)
+\n5. Roti, dal, vegetable of choice, curd (or buttermilk)"
+                android:textSize="20dp"
+                android:textColor="#393535"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
